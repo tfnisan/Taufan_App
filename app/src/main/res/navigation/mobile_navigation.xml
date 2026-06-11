@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.taufanapp.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_daily"
+        android:name="com.example.taufanapp.ui.daily.DailyFragment"
+        android:label="Daily"
+        tools:layout="@layout/fragment_daily" />
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="com.example.taufanapp.ui.gallery.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/navigation_media"
+        android:name="com.example.taufanapp.ui.media.MediaFragment"
+        android:label="Media"
+        tools:layout="@layout/fragment_media" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.taufanapp.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
